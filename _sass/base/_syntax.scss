@@ -68,6 +68,8 @@ code {
     overflow-wrap: break-word;
     border-radius: v.$radius-sm;
     background-color: var(--inline-code-bg);
+    color: #ff6a00;
+    font-weight: bold;
   }
 
   &.filepath {
