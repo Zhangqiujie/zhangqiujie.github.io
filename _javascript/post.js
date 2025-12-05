@@ -6,9 +6,11 @@ import {
   initLocaleDatetime,
   initClipboard,
   initToc,
-  loadMermaid
+  loadMermaid,
+  startHandleMarkmap
 } from './modules/components';
 
+startHandleMarkmap();
 loadImg();
 initToc();
 imgPopup();
